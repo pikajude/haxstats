@@ -13,8 +13,6 @@ cabal-version:       >=1.10
 
 executable stats
   main-is:             Main.hs
-  -- other-modules:       
-  -- other-extensions:    
   build-depends:       base >=4.6 && <4.7
                      , HTTP         == 4000.2.*
                      , bytestring   == 0.10.*
